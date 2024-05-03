@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (   
-    <html lang="en">
+    <html lang="en" className='scroll-smooth focus:scroll-auto'>
       <body className={[poppins.className, volkhov.className].toString()} >{children}</body>
     </html>
   )

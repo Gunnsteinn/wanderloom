@@ -23,12 +23,17 @@ function NavBar() {
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Products
+              <a href="/#home">Home</a>
             </p>
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Hotels
+              <a href="/#productos">Products</a>
+            </p>
+            <p
+              className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              About
             </p>
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
@@ -95,12 +100,17 @@ function NavBar() {
                 <p
                   className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
                 >
-                  Destinations
+                  Home
                 </p>
                 <p
                   className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
                 >
-                  Hotels
+                  Products
+                </p>
+                <p
+                  className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                >
+                  About
                 </p>
                 <p
                   className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
@@ -113,17 +123,17 @@ function NavBar() {
                   Bookings
                 </p>
 
-                <Link
+                {/* <Link
                   href="/auth/login"
                   className="hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2 "
                 >
                   Login
-                </Link>
+                </Link> */}
 
-                <MainButton
+                {/* <MainButton
                   text="Sign up"
                   classes="bg-secondary hover:bg-secondary text-navText font-[600] shadow-none rounded-normal border border-none hover:text-white"
-                />
+                /> */}
 
                 <div className="flex gap-2 items-center cursor-pointer">
                   <p className="font-[700]">EN</p>

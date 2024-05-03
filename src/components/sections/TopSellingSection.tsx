@@ -29,7 +29,7 @@ function TopSellingSection() {
     },
   ];
   return (
-    <section>
+    <section id="productos">
       <p className="text-lightGray text-[1.125rem] font-[600] text-center">
         Top Selling
       </p>

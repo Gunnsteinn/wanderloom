@@ -36,7 +36,7 @@ function HeroSection() {
         </p>
         <div className="flex flex-col">
           <div className="volkhov font-[700] text-[3rem] md:text-[4.73756rem] leading-large inline-flex text-lightBlue">
-            Transform,
+            Transform and
             <div className="flex  flex-col">
               <span className="ml-8 z-10">thrive</span>
               <img
