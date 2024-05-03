@@ -6,23 +6,23 @@ function BookNextTripSection() {
     {
       id: 0,
       iconUrl: "/images/destination-icon.png",
-      title: "Choose Destination",
+      title: "Choose the Option that Suits Your Needs",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+        "Explore a range of tailored web design solutions crafted specifically for tourism and transportation agencies. Select the design that aligns perfectly with your brand identity and caters to your target audience's preferences. ",
     },
     {
       id: 1,
       iconUrl: "/images/payment-icon.png",
-      title: "Make Payment",
+      title: "Define the Payment Method",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+        "Choose the payment integration that best suits your agency's requirements. Select from a variety of secure options to ensure smooth and hassle-free transactions for your clients. ",
     },
     {
       id: 2,
       iconUrl: "/images/airport-icon.png",
-      title: "Reach Airport on Selected Date",
+      title: "Enjoy Our Implementation and Support",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+        "Experience seamless implementation of your chosen web design, supported by our expert team every step of the way. Benefit from ongoing assistance and optimization to maximize your online presence and achieve success in the travel and transportation industry. ",
     },
   ];
   return (

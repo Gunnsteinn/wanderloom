@@ -34,7 +34,7 @@ function TopSellingSection() {
         Top Selling
       </p>
       <p className="volkhov text-[3.125rem] text-title font-[700] text-center">
-        Top Destinations
+        Ours Products
       </p>
       <div className="flex flex-col gap-4 md:flex-row items-center md:justify-between mt-16 w-full">
         {destinations.map((destination) => (

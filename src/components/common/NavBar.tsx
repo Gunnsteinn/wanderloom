@@ -23,7 +23,7 @@ function NavBar() {
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Destinations
+              Products
             </p>
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
@@ -41,17 +41,17 @@ function NavBar() {
               Bookings
             </p>
 
-            <Link
+            {/* <Link
               href="/auth/login"
               className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2 "
             >
               Login
-            </Link>
+            </Link> */}
 
-            <MainButton
+            {/* <MainButton
               text="Sign up"
               classes="bg-transparent text-navText font-[600] shadow-none rounded-normal border border-navText hover:border-none hover:text-white"
-            />
+            /> */}
 
             <div className="flex gap-2 items-center cursor-pointer">
               <p className="font-[700]">EN</p>
