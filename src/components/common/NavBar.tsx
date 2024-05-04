@@ -35,7 +35,7 @@ function NavBar() {
             >
               About
             </p>
-            <p
+            {/* <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
               Flights
@@ -44,7 +44,7 @@ function NavBar() {
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
               Bookings
-            </p>
+            </p> */}
 
             {/* <Link
               href="/auth/login"

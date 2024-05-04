@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/guille/Documents/Mauro/wanderloom/src/app/layout\":[\"static/media/eafabf029ad39a43-s.p.woff2\",\"static/media/8888a3826f4a3af4-s.p.woff2\",\"static/media/0484562807a97172-s.p.woff2\",\"static/media/b957ea75a84b6ea7-s.p.woff2\",\"static/media/79b9e062b39a8bab-s.p.woff2\",\"static/media/f4d88d1e9def2b83-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

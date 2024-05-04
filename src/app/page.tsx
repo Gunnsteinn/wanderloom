@@ -43,7 +43,7 @@ export default function Home() {
         <RevealOnScroll>
           <TopSellingSection />
         </RevealOnScroll>
-
+        <br />
         <RevealOnScroll>
           <BookNextTripSection />
         </RevealOnScroll>
