@@ -12,28 +12,28 @@ import BookCard from "@/components/book-card";
 
 const BOOKS = [
   {
-    img: `/image/books/RectangleBig1.svg`,
+    img: `/image/books/RectangleBig-1.svg`,
     category: "Natasha Wing",
     title: "The Night Before Kindergarten",
     desc: "A heartwarming and humorous picture book that eases the jitters of starting kindergarten.",
-    price: "$99",
-    offPrice: "$79",
+    //price: "$99",
+    // offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig6.svg`,
+    img: `/image/books/RectangleBig-2.svg`,
     category: "James Patterson",
     title: "Middle School: The Worst Years of My Life",
     desc: "A funny and relatable novel about the challenges of navigating middle school.",
-    price: "$99",
-    offPrice: "$79",
+    // price: "$99",
+    // offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig2.svg`,
+    img: `/image/books/RectangleBig-3.svg`,
     category: "Helen W. Colby",
     title: "College Student: A Comprehensive Checklist",
     desc: "A practical guidebook that helps college students prepare for the transition to university.",
-    price: "$99",
-    offPrice: "$79",
+    // price: "$99",
+    // offPrice: "$79",
   },
 ];
 
@@ -57,23 +57,22 @@ export function BackToSchoolBooks() {
           color="blue-gray"
           className="mb-3 font-bold uppercase"
         >
-          up to 40% OFF
+          Top Selling
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-2">
-          Back-to-School Books
+          Ours Products
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
         >
-          We offer a wide range of study guides, test prep materials, and
-          reference books. Whether you&apos;re tackling calculus or diving into
-          Shakespeare, we&apos;ve got you covered.
+          Explore our top-selling products: a diverse collection of study
+          guides, test prep materials, and reference books tailored for subjects
+          ranging from calculus to Shakespeare.
         </Typography>
-        <div className="mt-20 flex items-center justify-center">
-          <Tabs value={activeTab} className="w-full lg:w-8/12">
-
-            {/*
+        {/* <div className="mt-20 flex items-center justify-center"> */}
+        {/* <Tabs value={activeTab} className="w-full lg:w-8/12"> */}
+        {/*
             <TabsHeader
               className="h-12 bg-transparent"
               indicatorProps={{
@@ -94,10 +93,8 @@ export function BackToSchoolBooks() {
               ))}
             </TabsHeader>
             */}
-
-
-          </Tabs>
-        </div>
+        {/* </Tabs> */}
+        {/* </div> */}
       </div>
       <div className="container mx-auto grid grid-cols-1 items-start gap-x-6 gap-y-20 md:grid-cols-2 xl:grid-cols-3">
         {BOOKS.map((props, key) => (
@@ -105,18 +102,15 @@ export function BackToSchoolBooks() {
         ))}
       </div>
 
-        {/*
+      {/*
           <div className="grid place-items-center">
             <Button className="mt-32" variant="outlined">
               Show more
             </Button>
           </div>
         */}
-    
-    
     </section>
   );
 }
-
 
 export default BackToSchoolBooks;

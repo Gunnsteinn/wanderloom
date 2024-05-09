@@ -14,20 +14,19 @@ import { RevealOnScroll } from "@/components/RevealOnScroll";
 export default function Campaign() {
   return (
     <>
-
       <RevealOnScroll>
         <Navbar />
         <Hero />
       </RevealOnScroll>
 
       <RevealOnScroll>
-      <TopBookCategories />
-      </RevealOnScroll>
-
-      <RevealOnScroll>
         <TopBookCategories />
       </RevealOnScroll>
-      
+
+      {/* <RevealOnScroll>
+        <TopBookCategories />
+      </RevealOnScroll> */}
+
       <RevealOnScroll>
         <BackToSchoolBooks />
       </RevealOnScroll>
