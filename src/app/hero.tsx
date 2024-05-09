@@ -6,7 +6,7 @@ import MasonryGallery from "@/components/MasonryGallery";
 
 function Hero() {
   return (
-    <header className="mt-20 bg-white px-8">
+    <header id="home" className="mt-20 bg-white px-8">
       <div className="container mx-auto grid h-full min-h-[65vh] w-full sm:grid-cols-1 place-items-center gap-y-10 lg:grid-cols-2">
         <div className="row-start-2 sm:row-auto lg:-mt-40">
           <Typography
@@ -29,9 +29,6 @@ function Hero() {
           >
             Empower your travel agency with custom web designs tailored to your brand. Say goodbye to outdated platforms and welcome a new era of digital success. Let us craft your online identity while you focus on delivering unforgettable travel experiences.
           </Typography>
-          <Button size="lg" color="gray">
-            See Products
-          </Button>
         </div>
           
         <div className="row-start-2 sm:row-auto lg:-mt-40">

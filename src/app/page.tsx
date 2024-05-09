@@ -14,8 +14,8 @@ import { RevealOnScroll } from "@/components/RevealOnScroll";
 export default function Campaign() {
   return (
     <>
+      <Navbar />
       <RevealOnScroll>
-        <Navbar />
         <Hero />
       </RevealOnScroll>
 
