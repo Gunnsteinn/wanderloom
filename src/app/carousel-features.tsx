@@ -5,28 +5,26 @@ import { Typography, Carousel } from "@material-tailwind/react";
 
 export function CarouselFeatures() {
   return (
-    <>
-      <div className="place-items-center bg-black/50 z-10">
+    <div className="flex justify-center align-middle place-items-center mb-10">
+      <div className="flex absolute justify-center align-middle place-items-center z-10 w-full">
         <div className="w-3/4 text-center md:w-2/4">
-          <Typography
-            variant="h1"
-            color="white"
-            className="mb-4 text-3xl md:text-4xl lg:text-5xl"
-          >
-            The Beauty of Nature
-          </Typography>
-          <Typography variant="lead" color="white" className="mb-12 opacity-80">
-            It is not so much for its beauty that the forest makes a claim upon
-            men&apos;s hearts, as for that subtle something, that quality of air
-            that emanation from old trees, that so wonderfully changes and
-            renews a weary spirit.
-          </Typography>
+          <h1 className="text-white mb-4 text-3xl md:text-4xl lg:text-5xl">
+            Are you ready?
+          </h1>
+          <h2 className="text-white ">
+            We know how to make the most suitable option for you,
+            following your company ideals and style
+          </h2>
         </div>
       </div>
 
       <Carousel
-        className="rounded-xl w-9/12 h-96 m-auto mt-10 mb-10 z-0"
+        className="rounded-xl w-9/12 h-96 m-auto mt-10 mb-10 z-0 opacity-80"
         transition={{ duration: 2 }}
+        autoplay={true}
+        loop={true}
+        prevArrow={()=>{}}
+        nextArrow={()=>{}}
         placeholder="Loading..."
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
@@ -44,7 +42,7 @@ export function CarouselFeatures() {
       >
         <div className="relative h-full w-full">
           <Image
-            src="/image/carousel/photo-1.jpg"
+            src="/image/carousel/photo-8.jpg"
             alt="image 1"
             className="h-full w-full object-cover"
             fill
@@ -60,7 +58,7 @@ export function CarouselFeatures() {
         </div>
         <div className="relative h-full w-full">
           <Image
-            src="/image/carousel/photo-3.jpg"
+            src="/image/carousel/photo-6.jpg"
             alt="image 3"
             className="h-full w-full object-cover"
             fill
@@ -68,7 +66,7 @@ export function CarouselFeatures() {
         </div>
         <div className="relative h-full w-full">
           <Image
-            src="/image/carousel/photo-4.jpg"
+            src="/image/carousel/photo-9.jpg"
             alt="image 4"
             className="h-full w-full object-cover"
             fill
@@ -83,7 +81,7 @@ export function CarouselFeatures() {
           />
         </div>
       </Carousel>
-    </>
+    </div>
   );
 }
 

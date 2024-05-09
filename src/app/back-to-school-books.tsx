@@ -13,27 +13,21 @@ import BookCard from "@/components/book-card";
 const BOOKS = [
   {
     img: `/image/books/RectangleBig-1.svg`,
-    category: "Natasha Wing",
+    category: "Just Starting",
     title: "The Night Before Kindergarten",
     desc: "A heartwarming and humorous picture book that eases the jitters of starting kindergarten.",
-    //price: "$99",
-    // offPrice: "$79",
   },
   {
     img: `/image/books/RectangleBig-2.svg`,
-    category: "James Patterson",
+    category: "Im doing business",
     title: "Middle School: The Worst Years of My Life",
     desc: "A funny and relatable novel about the challenges of navigating middle school.",
-    // price: "$99",
-    // offPrice: "$79",
   },
   {
     img: `/image/books/RectangleBig-3.svg`,
-    category: "Helen W. Colby",
+    category: "Lets go all in!",
     title: "College Student: A Comprehensive Checklist",
     desc: "A practical guidebook that helps college students prepare for the transition to university.",
-    // price: "$99",
-    // offPrice: "$79",
   },
 ];
 
