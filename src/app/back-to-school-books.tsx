@@ -54,15 +54,16 @@ export function BackToSchoolBooks() {
           Top Selling
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-2">
-          Ours Products
+          Our Products
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
         >
-          Explore our top-selling products: a diverse collection of study
-          guides, test prep materials, and reference books tailored for subjects
-          ranging from calculus to Shakespeare.
+          Embark on a journey of discovery with our top-selling products:
+          uncover a captivating array of solutions designed to meet your
+          agency&apos;s needs. Delve into the realm of automated development and
+          rely on our steadfast support service.
         </Typography>
         {/* <div className="mt-20 flex items-center justify-center"> */}
         {/* <Tabs value={activeTab} className="w-full lg:w-8/12"> */}
