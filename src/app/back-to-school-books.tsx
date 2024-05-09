@@ -14,20 +14,20 @@ const BOOKS = [
   {
     img: `/image/books/RectangleBig-1.svg`,
     category: "Just Starting",
-    title: "The Night Before Kindergarten",
-    desc: "A heartwarming and humorous picture book that eases the jitters of starting kindergarten.",
+    title: "Hobby",
+    desc: "Ideal for a smooth beginning, this plan is tailored for startup travel agencies and tour operators seeking to exhibit their side projects. It presents a straightforward landing page solution that seamlessly integrates into existing processes, enabling businesses to swiftly and effectively establish their online presence.",
   },
   {
     img: `/image/books/RectangleBig-2.svg`,
     category: "Im doing business",
-    title: "Middle School: The Worst Years of My Life",
-    desc: "A funny and relatable novel about the challenges of navigating middle school.",
+    title: "Pro",
+    desc: "Tailored for professional travel agencies and teams ready to take their operations to the next level. The Pro plan offers all the features of the Hobby plan with additional capabilities, including the integration of payment methods. This enables businesses to streamline transactions and provide a seamless booking experience for their customers.",
   },
   {
     img: `/image/books/RectangleBig-3.svg`,
     category: "Lets go all in!",
-    title: "College Student: A Comprehensive Checklist",
-    desc: "A practical guidebook that helps college students prepare for the transition to university.",
+    title: "Enterprise",
+    desc: "Ideal for larger businesses with support and compliance needs. The Enterprise plan encompasses all the features of the Pro plan while offering support from our team. It provides advanced functionality, enabling companies to manage their operations expeditiously, while ensuring compliance and customer satisfaction.",
   },
 ];
 

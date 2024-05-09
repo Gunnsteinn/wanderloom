@@ -35,7 +35,7 @@ export function GetYourBookFromUs() {
     <section className="px-8">
       <div className="container mx-auto mb-16 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          Get your book from us!
+          Get your website Easy and Fast!
         </Typography>
         <Typography
           variant="lead"
