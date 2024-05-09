@@ -1,7 +1,12 @@
 "use client";
 import React from "react";
 
-import { Typography, Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
+import {
+  Typography,
+  Accordion,
+  AccordionHeader,
+  AccordionBody,
+} from "@material-tailwind/react";
 const FAQS = [
   {
     title: "When does the Back-to-School Campaign start and end?",
@@ -37,13 +42,13 @@ export function Faq() {
           <Typography variant="h1" color="blue-gray" className="mb-4">
             Frequently Asked Questions
           </Typography>
-          <Typography
+          {/* <Typography
             variant="lead"
             className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
           >
             The Back-to-School Campaign is a special promotion designed to make
             your return to school as smooth as possible.
-          </Typography>
+          </Typography> */}
         </div>
         <div className="mx-auto lg:max-w-screen-lg lg:px-20">
           {FAQS.map(({ title, desc }, key) => (
@@ -70,6 +75,5 @@ export function Faq() {
     </section>
   );
 }
-
 
 export default Faq;
