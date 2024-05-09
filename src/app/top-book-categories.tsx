@@ -41,7 +41,7 @@ const CATEGORIES = [
 
 export function TopBookCategories() {
   return (
-    <section className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
+    <section id="about" className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
       <div className="mb-20 grid place-items-center text-center">
         <Typography variant="h2" color="blue-gray" className="my-3">
           Top Services
@@ -58,12 +58,6 @@ export function TopBookCategories() {
         >
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
           <CardBody className="relative w-full">
-            
-            {/*
-            <Typography color="white" className="text-xs font-bold opacity-50">
-              up to 40% OFF
-            </Typography>
-            */}
             
             <Typography variant="h4" className="mt-9" color="white">
               Bestselling Products

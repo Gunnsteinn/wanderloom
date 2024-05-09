@@ -44,7 +44,7 @@ export function BackToSchoolBooks() {
   const [activeTab, setActiveTab] = React.useState("history");
 
   return (
-    <section className="px-8 pt-20 pb-10">
+    <section id="products" className="px-8 pt-20 pb-10">
       <div className="container mx-auto mb-20 text-center">
         <Typography
           variant="paragraph"
