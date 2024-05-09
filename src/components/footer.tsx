@@ -1,6 +1,6 @@
 import { Typography, Button, Input } from "@material-tailwind/react";
 
-const LINKS = ["About Us", "Careers", "Press", "Blog", "Pricing"];
+const LINKS = [""];
 const SUB_LINKS = ["Claim", "Privacy", "Terms"];
 const CURRENT_YEAR = new Date().getFullYear();
 

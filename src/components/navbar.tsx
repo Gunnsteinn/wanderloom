@@ -9,9 +9,9 @@ import {
 import {
   RectangleStackIcon,
   UserCircleIcon,
-  CommandLineIcon,
   XMarkIcon,
   Bars3Icon,
+  PaperAirplaneIcon,
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
@@ -27,7 +27,7 @@ const NAV_MENU = [
   },
   {
     name: "Products",
-    icon: CommandLineIcon,
+    icon: PaperAirplaneIcon,
     href: '/#products'
   },
 ];
