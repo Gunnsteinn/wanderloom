@@ -4,29 +4,29 @@ import React from "react";
 import { Typography } from "@material-tailwind/react";
 import FeatureCard from "@/components/feature-card";
 import {
-  TruckIcon,
-  BanknotesIcon,
-  LifebuoyIcon,
+  CurrencyDollarIcon,
+  ClipboardDocumentIcon,
+  FaceSmileIcon,
 } from "@heroicons/react/24/solid";
 
 const FEATURES = [
   {
-    icon: BanknotesIcon,
-    title: "We Support Educators",
+    icon: ClipboardDocumentIcon,
+    title: "Choose the Option that Suits Your Needs",
     description:
-      "Explore our educator resources, bulk ordering options, and special teacher discounts.",
+      "Explore a range of tailored web design solutions crafted specifically for tourism and transportation agencies. Select the design that aligns perfectly with your brand identity and caters to your target audience's preferences.",
   },
   {
-    icon: LifebuoyIcon,
-    title: "Support 24/7",
+    icon: CurrencyDollarIcon,
+    title: "Define the Payment Method",
     description:
-      "Our dedicated customer support team is available to assist you 24 hours a day, 7 days a week.",
+      "Choose the payment integration that best suits your agency's requirements. Select from a variety of secure options to ensure smooth and hassle-free transactions for your clients.",
   },
   {
-    icon: TruckIcon,
-    title: "Easy Shopping, Quick Delivery",
+    icon: FaceSmileIcon,
+    title: "Forget about implementation hassles",
     description:
-      "We offer fast and reliable shipping, so you can focus on what matters most - your education",
+      "Experience seamless implementation of your chosen web design, supported by our expert team every step of the way. Benefit from ongoing assistance and optimization to maximize your online presence and achieve success in the travel and transportation industry.",
   },
 ];
 
@@ -37,13 +37,12 @@ export function GetYourBookFromUs() {
         <Typography variant="h2" color="blue-gray" className="mb-4">
           Get your website Easy and Fast!
         </Typography>
-        <Typography
+        {/* <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-5/12"
         >
-          Start your literary adventure today by exploring these captivating
-          worlds of words.
-        </Typography>
+          Book your next trip in 3 easy steps.
+        </Typography> */}
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map(({ icon, title, description }) => (

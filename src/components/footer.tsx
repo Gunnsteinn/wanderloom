@@ -37,13 +37,13 @@ export function Footer() {
           </div>
           <div className="w-full sm:w-[24rem] sm:min-w-[24rem]">
             <Typography variant="h6" color="blue-gray" className="mb-3">
-              Our Newsletter
+              For contact
             </Typography>
             <div className="flex flex-col gap-3 sm:flex-row">
               {/* @ts-ignore */}
               <Input color="gray" label="Enter your email" />
               <Button color="gray" className="flex-shrink-0">
-                subscribe
+                send it
               </Button>
             </div>
           </div>
