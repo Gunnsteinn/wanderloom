@@ -5,67 +5,84 @@ import { Typography, Carousel } from "@material-tailwind/react";
 
 export function CarouselFeatures() {
   return (
-    <div className="px-8 py-56">
-      <section className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
-        <Carousel
-          transition={{ duration: 1 }}
-          nextArrow={() => <></>}
-          prevArrow={() => <></>}
-          navigation={({ setActiveIndex, activeIndex, length }) => (
-            <div className="absolute left-16 bottom-0 z-50 flex h-5 w-20 -translate-x-2/4 gap-2 md:left-2/4">
-              {new Array(length).fill("").map((_, i) => (
-                <span
-                  key={i}
-                  className={`block h-1 w-10 cursor-pointer transition-all content-[''] ${
-                    activeIndex === i ? "bg-white" : "bg-white/50"
-                  }`}
-                  onClick={() => setActiveIndex(i)}
-                />
-              ))}
-            </div>
-          )}
+
+<>
+    <div className=" place-items-center bg-black/50 z-10">
+      <div className="w-3/4 text-center md:w-2/4">
+        <Typography
+          variant="h1"
+          color="white"
+          className="mb-4 text-3xl md:text-4xl lg:text-5xl"
         >
-          {new Array(2).fill("").map((_, i) => (
-            <div
-              key={i}
-              className="!relative flex grid-cols-1 flex-col-reverse gap-6 px-10 py-14 md:grid md:grid-cols-5  md:gap-14 md:py-20"
-            >
-              <div className="col-span-3 flex flex-col items-start justify-center">
-                <Typography
-                  variant="lead"
-                  color="white"
-                  className="mb-5 text-xl font-normal "
-                >
-                  Easy Shopping, Quick Delivery <br />
-                  No need to stress about shopping for books. Order online and
-                  have your textbooks and supplies delivered straight to your
-                  doorstep for free.
-                </Typography>
-                <div className="flex items-center gap-2">
-                  🚚
-                  <Typography
-                    variant="small"
-                    color="white"
-                    className="font-medium uppercase"
-                  >
-                    Free Delivery
-                  </Typography>
-                </div>
-              </div>
-              <div className="col-span-2 flex w-full shrink-0 md:!justify-end">
-                <Image
-                  width={768}
-                  height={768}
-                  src="/image/logos/logo-amazon 3.svg"
-                  alt="testimonial image"
-                  className="h-full w-2/4 object-contain md:!w-2/3"
-                />
-              </div>
-            </div>
-          ))}
-        </Carousel>
-      </section>
+          The Beauty of Nature
+        </Typography>
+        <Typography
+          variant="lead"
+          color="white"
+          className="mb-12 opacity-80"
+        >
+          It is not so much for its beauty that the forest makes a claim
+          upon men&apos;s hearts, as for that subtle something, that quality
+          of air that emanation from old trees, that so wonderfully changes
+          and renews a weary spirit.
+        </Typography>
+    
+      </div>
     </div>
+    
+    <Carousel className="rounded-xl w-9/12 h-96 m-auto mt-10 mb-10 z-0"
+      transition={{duration:2}}
+      navigation={({ setActiveIndex, activeIndex, length }) => (
+        <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+          {new Array(length).fill("").map((_, i) => (
+            <span
+              key={i}
+              className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+                activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+              }`}
+              onClick={() => setActiveIndex(i)}
+            />
+          ))}
+        </div>
+      )}
+    >
+      <div className="relative h-full w-full">
+        <img
+          src="/image/carousel/photo-1.jpg"
+          alt="image 1"
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="relative h-full w-full">
+        <img
+          src="/image/carousel/photo-2.jpg"
+          alt="image 2"
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="relative h-full w-full">
+      <img
+          src="/image/carousel/photo-3.jpg"
+          alt="image 2"
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="relative h-full w-full">
+        <img
+          src="/image/carousel/photo-4.jpg"
+          alt="image 2"
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="relative h-full w-full">
+        <img
+          src="/image/carousel/photo-5.jpg"
+          alt="image 2"
+          className="h-full w-full object-cover"
+        />
+      </div>
+    </Carousel>
+    </>
   );
 }
 
